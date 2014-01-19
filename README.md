@@ -21,6 +21,7 @@ $ npm install machine_learning
 ## Implementation Details
 
 SVM is using Sequential Minimal Optimization (SMO) for its training algorithm.
+
 For Decision Tree, Classification And Regression Tree (CART) was used for its building algorithm.
 
 SVM : SMO (Sequential Minimal Optimization)
