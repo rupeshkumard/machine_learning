@@ -34,6 +34,6 @@ dt.build();
 
 console.log("Classify : ", dt.classify(['(direct)','USA','yes',5]));
 
-dt.prune(0); // 1.0 : mingain.
+dt.prune(1.0); // 1.0 : mingain.
 dt.print();
 

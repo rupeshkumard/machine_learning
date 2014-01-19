@@ -235,7 +235,7 @@ var ml = require('machine_learning');
 
 var costf = function(vec) {
     var cost = 0;
-    for(var i =0; i<14;i++) { // 15차원 벡터
+    for(var i =0; i<14;i++) { // 15-dimensional vector
         cost += (0.5*i*vec[i]*Math.exp(-vec[i]+vec[i+1])/vec[i+1])
     }
     cost += (3.*vec[14]/vec[0]);
@@ -261,7 +261,7 @@ var ml = require('machine_learning');
 
 var costf = function(vec) {
     var cost = 0;
-    for(var i =0; i<14;i++) { // 15차원 벡터
+    for(var i =0; i<14;i++) { // 15-dimensional vector
         cost += (0.5*i*vec[i]*Math.exp(-vec[i]+vec[i+1])/vec[i+1])
     }
     cost += (3.*vec[14]/vec[0]);
@@ -290,7 +290,7 @@ var ml = require('machine_learning');
 
 var costf = function(vec) {
     var cost = 0;
-    for(var i =0; i<14;i++) { // 15차원 벡터
+    for(var i =0; i<14;i++) { // 15-dimensional vector
         cost += (0.5*i*vec[i]*Math.exp(-vec[i]+vec[i+1])/vec[i+1])
     }
     cost += (3.*vec[14]/vec[0]);
@@ -350,7 +350,7 @@ dt.build();
 
 console.log("Classify : ", dt.classify(['(direct)','USA','yes',5]));
 
-dt.prune(0); // 1.0 : mingain.
+dt.prune(1.0); // 1.0 : mingain.
 dt.print();
 ```
 

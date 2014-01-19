@@ -1,6 +1,6 @@
 {
   "name": "machine_learning",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Machine learning library for Node.js",
   "main": "./lib/machine_learning",
   "repository": {
