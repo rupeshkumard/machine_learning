@@ -1,6 +1,6 @@
 {
   "name": "machine_learning",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Machine learning library for Node.js",
   "main": "./lib/machine_learning",
   "repository": {
@@ -15,6 +15,7 @@
     "support vector machine",
     "kmeans",
     "knn",
+    "k nearest neighbors",
     "decision tree",
     "genetic algorithm",
     "nmf",
