@@ -152,7 +152,7 @@ svm.train({
 console.log("Predict : ",svm.predict([1.3,  1.7,  0.5, 0.5, 1.5, 0.4]));
 ```
 
-## KNN (K-nearest neighbors))
+## KNN (K-nearest neighbors)
 ```
 var ml = require('machine_learning');
 
