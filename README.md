@@ -1,12 +1,26 @@
 # machine_learning
 
-Machine learning library for node.js.
+Machine learning library for node.js. You can also use this library in browser.
 
+[Demo in Browser!](http://joonku.com/project/machine_learning)
+
+[API Documentation](http://joonku.com/project/machine_learning/apidoc)
 ## Installation
+
+Node.js
 ```
 $ npm install machine_learning
 ```
 
+To use this library in browser, include [machine_learning.min.js](http://joonku.com/js/machine_learning.min.js) file.
+
+```
+<script src="/js/machine_learning.min.js"></script>
+```
+
+[Demo in Browser!](http://joonku.com/project/machine_learning)
+
+Here is the [API Documentation](http://joonku.com/project/machine_learning/apidoc). (Still in progress)
 ## Features
 
   * Logistic Regression
