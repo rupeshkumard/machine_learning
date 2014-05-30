@@ -1,6 +1,6 @@
 {
   "name": "machine_learning",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Machine learning library for Node.js. You can also use this library in browser.",
   "main": "./lib/machine_learning",
   "homepage": "http://joonku.com/project/machine_learning",
