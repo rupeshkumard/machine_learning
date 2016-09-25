@@ -14,7 +14,7 @@ $ npm install machine_learning
 
 To use this library in browser, include [machine_learning.min.js](http://joonku.com/js/machine_learning.min.js) file.
 
-```
+```html
 <script src="/js/machine_learning.min.js"></script>
 ```
 
@@ -41,7 +41,7 @@ For Decision Tree, Classification And Regression Tree (CART) was used for its bu
 # Usage
 
 ## Logistic Regression
-```
+```javascript
 var ml = require('machine_learning');
 var x = [[1,1,1,0,0,0],
          [1,0,1,0,0,0],
@@ -80,7 +80,7 @@ console.log("Result : ",classifier.predict(x));
 ```
 
 ## MLP (Multi-Layer Perceptron)
-```
+```javascript
 var ml = require('machine_learning');
 var x = [[0.4, 0.5, 0.5, 0.,  0.,  0.],
          [0.5, 0.3,  0.5, 0.,  0.,  0.],
@@ -118,7 +118,7 @@ console.log(mlp.predict(a));
 ```
 
 ## SVM (Support Vector Machine)
-```
+```javascript
 var ml = require('machine_learning');
 var x = [[0.4, 0.5, 0.5, 0.,  0.,  0.],
          [0.5, 0.3,  0.5, 0.,  0.,  0.01],
@@ -167,7 +167,7 @@ console.log("Predict : ",svm.predict([1.3,  1.7,  0.5, 0.5, 1.5, 0.4]));
 ```
 
 ## KNN (K-nearest neighbors)
-```
+```javascript
 var ml = require('machine_learning');
 
 var data = [[1,0,1,0,1,1,1,0,0,0,0,0,1,0],
@@ -211,7 +211,7 @@ console.log(y);
 ```
 
 ## K-means clustering
-```
+```javascript
 var ml = require('machine_learning');
 
 var data = [[1,0,1,0,1,1,1,0,0,0,0,0,1,0],
@@ -244,7 +244,7 @@ console.log("means : ", result.means);
 ```
 
 ## Hill-Climbing
-```
+```javascript
 var ml = require('machine_learning');
 
 var costf = function(vec) {
@@ -270,7 +270,7 @@ console.log("cost : ",costf(vec));
 ```
 
 ## Simulated Annealing
-```
+```javascript
 var ml = require('machine_learning');
 
 var costf = function(vec) {
@@ -299,7 +299,7 @@ console.log("cost : ",costf(vec));
 ```
 
 ## Genetic Algorithm
-```
+```javascript
 var ml = require('machine_learning');
 
 var costf = function(vec) {
@@ -330,7 +330,7 @@ console.log("cost : ",costf(vec));
 ```
 
 ## Decision Tree
-```
+```javascript
 // Reference : 'Programming Collective Intellignece' by Toby Segaran.
 
 var ml = require('machine_learning');
@@ -369,7 +369,7 @@ dt.print();
 ```
 
 ## NMF (Non-negative matrix factorization)
-```
+```javascript
 var ml = require('machine_learning');
 var matrix = [[22,28],
               [49,64]];
